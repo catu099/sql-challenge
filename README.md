@@ -17,10 +17,6 @@ List all employees whose first name is "Hercules" and last names begin with "B."
 List all employees in the Sales department, including their employee number, last name, first name, and department name.
 List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-Import the SQL database into Pandas.
--from sqlalchemy import create_engine -engine = create_engine('postgresql://localhost:5432/<your_db_name>') -connection = engine.connect()
-
-Create a bar chart of average salary by title.
 
 
 
